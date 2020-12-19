@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Weather in {{place}}</title>
+</head>
+<body style="background-color:black;">
+<h1 style="color:blue">Weather in {{place}}:</h1>
+<p style="color:blue;font-size:180%;">
+{% autoescape false %}
+{{info}}
+{% endautoescape %}
+</p>
+</body>
+</html>
